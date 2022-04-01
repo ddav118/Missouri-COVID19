@@ -1,0 +1,115 @@
+:root {
+    --margin: 60px;
+    --h: 540px;
+    --hneg: -550px;
+}
+
+.center_plot {
+    margin: auto;
+    text-align: center;
+}
+
+.section {
+    text-align: center;
+}
+
+.font {
+    font-family: "sans-serif";
+    font-size: 11px;
+    text-anchor: middle;
+}
+
+.white_font {
+    font-family: "sans-serif";
+    font-size: 11px;
+    fill: white;
+    text-anchor: middle;
+}
+
+.xAxis {
+    transform: translate(0px,var(--h));
+}
+
+.xAxis_label {
+    text-anchor: middle;
+    transform: translate(0px,var(--hneg));
+}
+
+.yAxis {
+    transform: translate(var(--margin),0px)
+}
+.yAxis_label {
+    text-anchor: middle;
+    transform: rotate(-90deg);
+}
+
+.trendLines {
+    stroke: hotpink;
+    fill: none;
+    opacity: 0.8;
+}
+
+.femaleLines {
+    stroke: hsl(267,100%,49%);
+    fill: none;
+    opacity: 0.8;
+}
+
+.stacked_chart {
+    background-color: lightcyan;
+}
+
+.black_font {
+    font-family: "sans-serif";
+    font-size: 11px;
+    fill: black;
+    text-anchor: middle;
+}
+.chart1 {
+    background-color: lightgray;
+}
+
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    width: 'fit-content';
+    height:'fit-content';
+    background: gray;
+    padding: 10px;
+}
+
+.yAxisHeat {
+    transform: translate(80px,0px)
+}
+
+.lineplot {
+    fill: none;
+    stroke: blue;
+    stroke-width: 1px;
+}
+.legend {
+    font-size: 12px;
+}
+rect {
+    stroke-width: 2;
+}
+
+.leglabels {
+    text-anchor: left;
+    alignment-baseline: middle;
+}
+
+.slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: 25px; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+}
+.scatter {
+    background-color: royalblue;
+}

@@ -1,0 +1,123 @@
+
+<html>  
+<head>  
+<script type="text/javascript" src="app.js">
+    </script>  
+<link rel="stylesheet" href="styles.css">
+<script src="https://d3js.org/d3.v7.min.js"></script>
+
+</head>
+<body onload=finalproject()> 
+
+
+<div>
+<h2 class="section">PART A</h2>
+<br>
+<div>
+<h3>Viz 1:</h3>
+    <div>Problem Statement:
+        <br>
+        Explore trend of number of female “Laboratory-confirmed” COVID-19 cases per month (x-axis) to number of male “Laboratory-confirmed” COVID-19 cases per month (y-axis) for every county in Missouri (each x,y pair represents a county) => Scatterplot
+        <br>This viz includes interactivity using Animation to show changes over time with slider, this will be the interactive event that we did not cover in class. Slide the blue dot anywhere on the gray box to get data for different months
+        <br>This viz includes interactivity using Tooltips (Display data on Hover) as you pass over each point of the Scatterplot.
+        <br><br>
+    </div>
+    <div id="q1_color"></div>
+    <div id="q1_mc"></div>
+<div id="q1">
+
+    </div>
+    <h4>Plot:</h4>
+    <div id="slider" class="center_plot"></div>
+    <!-- Slider -->
+        <input type="range" name="mySlider" id=mySlider min="1" max="24" value="1" class="
+        slider">
+    </div>
+    <div id="q1_plot" class="center_plot">
+    </div>
+</div>    
+</div>
+    
+<div>
+<h3>Viz 2:</h3>
+    <div>
+       Problem Statement:<br>
+       Explore trend of number of “Laboratory-confirmed” COVID-19 cases per month between 2020-2022 in Missouri => Line plot
+
+        <br><br>
+    </div>
+    <div id="q2_color"></div>
+    <div id="q2_mc"></div>
+<div id="q2">
+
+    </div>
+    <h4>Plot:</h4>
+    <div id="q2_title" class="center_plot"></div>
+    <div id="q2_plot" class="center_plot">
+    </div>
+</div>    
+
+<div>
+<h3>Viz 3:</h3>
+    <div> Problem Statement:<br>
+        Explore trend of one time series for each age group in Missouri with the number of “Laboratory-confirmed” COVID-19 cases per month => Streamgraph
+        <br>This viz incorporates interactivity using Animation to include “Zoom in” and “Zoom out” capabilities when viewing the data. Click and drag on the graph to update the x-axis! Double click to return to the original graph.
+        <br><br>
+    </div>
+    <div id="q3_color"></div>
+    <div id="q3_mc"></div>
+<div id="q3">
+
+    </div>
+    <h4>Plot:</h4>
+    <div id="q3_title" class="center_plot"></div>
+    <div id="q3_plot" class="center_plot">
+    </div>
+</div>    
+   
+<div>
+<h3>Viz 4:</h3>
+    <div> Problem Statement:<br>
+        Explore trend of number of COVID-19 cases per month (y-axis) for the 5 counties in Missouri with the highest COVID-19 numbers (x-axis) by race (Counties: Jefferson, Greene, Clay, Jackson, Boone) => Stacked Bar Chart
+        <br>This viz includes interactivity using a Button, which determines if the bars will be normalized (shown as percentage) or shown as frequency.
+        <br><br>
+    </div>
+    <div id="q4_color"></div>
+    <div id="q4_mc"></div>
+    
+<div id="q4">
+
+    </div>
+    <h4>Plot:</h4>
+    <div id="q4_title" class="center_plot"></div>
+    <div id="radio" class="center_plot">
+        <input type="radio" id="q4_freq" name="type" value="freq" checked="checked">
+        <label for="freq">Frequency</label>
+        <input type="radio" id="q4_norm" name="type" value="norm">
+        <label for="norm">Normalized</label>
+    </div>
+    <div id="q4_plot" class="center_plot">
+    </div>
+</div>    
+
+<div>
+<h3>Viz 5:</h3>
+    <div> Problem Statement:<br>
+        Explore distribution of number of “Laboratory-confirmed” COVID-19 cases per month for 2020, 2021, 2022 => 3 boxplots side by side (one for each year)
+        <br><br>
+    </div>
+    <div id="q5_color"></div>
+    <div id="q5_mc"></div>
+<div id="q5">
+
+    </div>
+    <h4>Plot:</h4>
+    <div id="q5_title" class="center_plot"></div>
+    <div id="q5_plot" class="center_plot">
+    </div>
+</div>    
+   
+    
+   
+</body>  
+</html>  
