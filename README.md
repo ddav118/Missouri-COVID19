@@ -1,6 +1,8 @@
 # Missouri-COVID19
 In this project I used the Javascript d3 library to create interactive visualizations of publicly available COVID-19 data from the state of Missouri (https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data-with-Ge/n8mc-b4w4/data).
 
+In order to view interactivity, download and open files on your local computer, then open a server from the HTML file to display the interactive visualizations on your web browser.
+
 This project was completed individually for the DSC 106 course at UC San Diego during Winter 2022 quarter. 
 
 The filter conditions for replication of the dataset are 
